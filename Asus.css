@@ -1,0 +1,448 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    position: relative;
+    display: flex;
+    padding: 0px 20px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.asus {
+    width: 20px;
+    padding: 0px 20px;
+    position: relative;
+    margin-right: 20px;
+}
+.asus .pic1{
+    position: absolute;
+}
+.asus .pic2{
+    position: absolute;
+}
+.asus:hover .pic1{
+    display: none;
+}
+
+.proart{
+    width: 20px;
+    position: relative;
+    padding: 0px 20px;
+    
+}
+.proart .pic1{
+    position: absolute;
+}
+.proart .pic2{
+    position: absolute;
+}
+.proart:hover .pic1{
+    display: none;
+}
+.asuelot{
+    width: 20px;
+    padding: 0px 20px;
+    margin-left: 100px;
+}
+.asuslot .pic1{
+    position: absolute;
+}
+.asuslot .pic2{
+    position: absolute;
+}
+.asuslot:hover .pic1{
+    display: none;
+}
+.asuslot a img{
+    margin-left: 50px;
+}
+.text{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    right:200;
+    
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.text li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+    
+}
+.text li{
+    list-style: none;
+    margin: 0px 30px;
+}
+.text li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height:3px;
+    top: 20px;
+    background-color:dimgrey;
+    transition: width 0.3s ease;
+    transform: translateX(-90);
+    border-radius: 10px;
+}
+.text li a:hover::after{
+    width: 55px;
+}
+.home{
+    display: flex;
+    position: relative;
+}
+.logo-1{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    
+}
+.logo-1 img{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.menu{
+    margin-top: 18px;
+    padding-left: 30px;
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.menu  li a{
+    font-size: 15px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+.menu li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 0;
+    height:3px;
+    top: 20px;
+    background-color:dimgrey;
+    transition: width 0.3s ease;
+    transform: translateX(-90);
+    border-radius: 10px;
+    line-height: 20px;
+}
+.menu li a:hover::after{
+
+    width: 100px;
+}
+.blue{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+.blue a{ 
+    color: white;
+    text-decoration: none;
+   text-align: center;
+   margin-top: 20px;
+}
+.blue a p{
+  padding: 12px 0px;
+}
+
+.blue a p:hover{
+    color: brown;
+    transition: 0.3s;
+}
+.ul img{
+    width: 100%;
+    margin-top: 0px;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.left-container{
+    width: 49%;
+    height: 600px;
+    background-color:white;
+   margin: 10px 10px 10px 10px;
+}
+.right-container{
+    width: 49%;
+    height: 600px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+  
+}.left-container img{
+    width: 130%;
+    height: 500px;
+    margin: 0px 10px 0px;
+   
+ 
+}
+.left-container p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 90px;
+    text-shadow: 4px 3px 2px darkgray;
+    
+   
+}
+.left-container p a{ 
+    font-size: 20px;
+    text-decoration: none;
+    color:darkgray;
+}
+.right-container img{
+
+    width: 130%;
+    height: 500px;
+    margin: 0px 10px 0px;
+}
+.right-container p{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 90px;
+    text-shadow: 4px 3px 2px darkgray;
+}
+.right-container p a{
+    font-size: 20px;
+    text-decoration: none;
+    color:darkgray;
+}
+.content{
+    position: relative;
+    display: flex;
+}
+.left-content img{
+    
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin: 0px 10px 0px;
+
+}
+.left-content P{
+    position: absolute;
+    margin-top:400px;
+    font-size: 40px;
+    margin-left: 300px;
+    text-shadow: 4px 3px 2px darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-content p a{
+    font-size: 20px;
+    text-decoration: none;
+    color:darkgray;
+
+}
+.right-content img{
+    width: 130%;
+    height: 500px;
+    margin-top: 20px;
+    margin: 0px 10px ;
+    margin-left: 10px;
+}
+.nav{
+    position: relative;
+    display: flex;
+}
+.left-nav img{
+    width: 100%;
+    margin: 10px 0px ;
+    padding-right: 5px;
+
+}
+.right-nav img{
+    width: 100%;
+    margin: 10px 0px ;
+    padding-left: 10px;
+}
+.txt p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    font-family:serif;
+    color: blue;
+
+
+}
+.central{
+    position: relative;
+    display: flex;
+}
+.footer{
+    position: relative;
+    display:  flex;
+    
+}
+.footer img{
+    width: 500px;
+    
+}
+.inline{
+    position: relative;
+    display:inline;
+}
+.inline-pic img{
+    width: 500px;
+    margin-left: 10px;
+}
+.inline-pic1 img{
+    width: 500px;
+    margin: 10px 10px;
+    height: 300px;
+    padding-top: 20px;
+}
+.out2{
+    margin-left: px;
+    padding-top: 30px;
+    
+}
+.footer-1{
+    position: relative;
+    display: flex;
+}
+.left-footer-1 li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.left-footer-1 li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.left-footer-1 li a b{
+    color: black;
+}
+.right-1 li{
+list-style: none;
+margin-left: 80px;
+margin-top: 20px;
+}
+.right-1 li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.right-1 li a b{
+    color: black;
+}
+.right-2 li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+.right-2 li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.right-3 li{
+    position: relative;
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.right-3 li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.right-3 li a b{
+    color: black;
+}
+.right-4 li{
+    position: relative;
+    list-style: none;
+     margin-left: 80px;
+    margin-top: 20px;
+}
+.right-4 li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.right-4 li a b{
+    color: black;
+}
+.right-5 li{
+    list-style: none;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.right-5 li a{
+    text-decoration: none;
+    position: relative;
+    color: darkgrey;
+}
+.right-5 li a b{
+    color: black;
+}
+.emoji{
+    display: flex;
+    padding-left: 400px;
+    padding-top: 70px;
+}
+.emoji a  {
+    
+    text-decoration: none;
+    font-size: 50px;  
+    margin: 20px 0px;
+    padding-left: 20px;
+    color: darkgrey;
+
+}
+.emoji a:hover{
+    color:black;
+    transition: 0.6s;
+}
+.footer-text{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 90px;
+    display: flex;
+}
+.text-t a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding-top: 200px;
+    font-family: unset;
+    color: black;
+}
+.global{
+    width: 50%;
+    padding-left: 700px;
+}
+.global i{
+    font-size: 20px;
+    color: darkgrey;
+}
+.global i:hover{
+    color: black;
+    transition: 0.2s;
+}
+.english a {
+    
+    text-decoration: none;
+    color: darkgrey;
+}
+.english a:hover{
+color: black;
+transition: 0.2s;
+}
